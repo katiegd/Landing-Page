@@ -88,7 +88,7 @@ button:hover {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2em 3em;
+    padding: 1em 1em;
     gap: 1em;
 }
 
@@ -99,7 +99,7 @@ button:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2em 3em;
+    padding: 1em 1em;
 }
 
 .main-imgs {
@@ -118,18 +118,18 @@ button:hover {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 2em 3em;
+    padding: 1em 1em;
 }
 
 .register {
     background-color: rgb(211, 233, 211);
-    border: 30px white solid;
+    border: 20px white solid;
     border-radius: 60px;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 2em 3em;
+    padding: 1em 1em;
 }
 
 .register-item1 {
