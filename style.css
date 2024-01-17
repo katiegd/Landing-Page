@@ -63,6 +63,24 @@ button:hover {
     gap: 1em;
 }
 
+.main-info {
+    background-color: rgb(245, 245, 245);
+    color: darkslategray;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.main-imgs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
 .quote-sec {
     background-color: #e5e7eb;
     font-size: 36px;
@@ -76,4 +94,13 @@ button:hover {
 
 .item-2 {
     flex: 0;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
 }
