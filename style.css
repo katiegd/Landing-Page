@@ -12,7 +12,7 @@ a, a:visited {
 a.head-links {
     background-color: #1f2937;
     color: white;
-    padding: 15px 20px;
+    padding: 10px 20px;
 }
 
 a.head-links:hover {
@@ -20,18 +20,18 @@ a.head-links:hover {
 }
 
 button {
-    background-color: #3882f6;
-    border: 5px white solid;
+    background-color: rgba(44, 103, 66, 0.427);
+    border: 3px white solid;
     border-radius: 20px;
     color: white;
-    width: auto;
+    width: 100%;
     font-size: 20px;
     padding: 20px;
     font-size: 20px;
 }
 
 button:hover {
-    background-color: #71a3f4;
+    background-color: rgb(193, 171, 201);
 }
 
 .roundcorners {
@@ -48,6 +48,18 @@ button:hover {
     display: flex;
     width: auto;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    width: auto;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -108,7 +120,7 @@ button:hover {
 }
 
 .register {
-    background-color: #3882f6;
+    background-color: rgb(211, 233, 211);
     border: 40px white solid;
     border-radius: 90px;
     font-size: 20px;
