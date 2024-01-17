@@ -16,32 +16,34 @@ a.head-links {
 }
 
 a.head-links:hover {
-    background-color: skyblue;
+    background-color: rgb(211, 233, 211);
+    color: #1f2937;
 }
 
 button {
-    background-color: rgba(44, 103, 66, 0.427);
-    border: 3px white solid;
-    border-radius: 20px;
+    background-color: #1f2937;
+    border: 3px #1f2937 solid;
+    border-radius: 30px;
     color: white;
-    width: 100%;
-    font-size: 20px;
+    width: auto;
+    font-size: 1em;
     padding: 20px;
-    font-size: 20px;
 }
 
 button:hover {
-    background-color: rgb(193, 171, 201);
+    background-color: rgba(44, 103, 66, 0.427);
+    border: 3px white solid;
+
 }
 
 .roundcorners {
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 .header {
     background-color: #1f2937;
     color: white;
-    font-size: 48px;
+    font-size: 2.5em;
     margin: 0px;
     padding: 20px;
     font-weight: bolder;
@@ -54,7 +56,7 @@ button:hover {
 .footer {
     background-color: #1f2937;
     color: white;
-    font-size: 13px;
+    font-size: 0.75em;
     margin: 0px;
     padding: 20px;
     display: flex;
@@ -72,7 +74,7 @@ button:hover {
 
 .header-link {
     display: flex;
-    font-size: 24px;
+    font-size: .5em;
     justify-content: flex-end;
     align-items: center;
     gap: 2em;
@@ -81,23 +83,23 @@ button:hover {
 .subheader {
     background-color: rgb(211, 233, 211);
     color: #1f2937;
-    font-size: 24px;
+    font-size: 1em;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 100px 50px 100px;
+    padding: 2em 3em;
     gap: 1em;
 }
 
 .main-info {
     background-color: rgb(250, 250, 250);
     color: darkslategray;
-    font-size: 18px;
+    font-size: 1em;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 30px 100px 30px 100px;
+    padding: 2em 3em;
 }
 
 .main-imgs {
@@ -116,28 +118,28 @@ button:hover {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 30px 100px 30px 100px;
+    padding: 2em 3em;
 }
 
 .register {
     background-color: rgb(211, 233, 211);
-    border: 40px white solid;
-    border-radius: 90px;
+    border: 30px white solid;
+    border-radius: 60px;
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
-    padding: 30px;
+    padding: 2em 3em;
 }
 
 .register-item1 {
     flex: 3;
-    padding: 20px;
+    padding: 0.5em;
 }
 
 .register-item2 {
     flex: 1;
-    padding: 20px;
+    padding: 0.5em;
     align-self: center;
 }
 
