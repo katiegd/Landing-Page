@@ -74,7 +74,7 @@ button:hover {
 
 .header-logo {
     display: flex;
-    flex: 3;
+    flex: 1;
     justify-content: flex-start;
     align-items: center;
 }
@@ -95,7 +95,7 @@ button:hover {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1em 1em;
+    padding: 1% 8%;
     gap: 1em;
 }
 
@@ -106,7 +106,7 @@ button:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1em 1em;
+    padding: 1% 8%;
 }
 
 .main-imgs {
@@ -122,10 +122,10 @@ button:hover {
     font-size: 20px;
     font-style: italic;
     font-weight: lighter;
-    display: flex;
+    display: flex;    
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 1em 1em;
+    padding: 1% 8%;
 }
 
 .register {
@@ -133,7 +133,6 @@ button:hover {
     border: 20px white solid;
     border-radius: 60px;
     font-size: 1em;
-    padding: 1em 1em;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
